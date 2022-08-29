@@ -5,6 +5,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/926ec79b63.js" crossorigin="anonymous"></script>
     <title>Davis's Portfolio</title>
     <meta charset="UTF-8" />
   </head>
@@ -12,17 +13,22 @@
       <section class="hero">
         <nav>
             <img class="logo" src="src/images/Portfolio-logo.gif" alt="Davis Truong's Logo">
-            <ul>
-                <li>About</li>
-                <li>Projects</li>
-                <li>Contact</li>
+            <ul id="navList">
+                <li> <a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
+
+            <button class="hamburger" id="hamburger" >
+              <i class="fas fa-bars"></i>
+            </button>
+
         </nav>
         <div class="hero-area">
           <div class="hero-text">
             <h1>Davis Truong</h1>
             <p>UX Designer</p>
-            <div class="button">About</div>
+            <div class="button"> <a href="#about">About</a></div>
           </div>
           <div class="socials">
             <div>
@@ -33,14 +39,12 @@
               <a href="https://twitter.com/UXDavis96" class="social">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="#e4dac2" width="50" height="50" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-.139 9.237c.209 4.617-3.234 9.765-9.33 9.765-1.854 0-3.579-.543-5.032-1.475 1.742.205 3.48-.278 4.86-1.359-1.437-.027-2.649-.976-3.066-2.28.515.098 1.021.069 1.482-.056-1.579-.317-2.668-1.739-2.633-3.26.442.246.949.394 1.486.411-1.461-.977-1.875-2.907-1.016-4.383 1.619 1.986 4.038 3.293 6.766 3.43-.479-2.053 1.08-4.03 3.199-4.03.943 0 1.797.398 2.395 1.037.748-.147 1.451-.42 2.086-.796-.246.767-.766 1.41-1.443 1.816.664-.08 1.297-.256 1.885-.517-.439.656-.996 1.234-1.639 1.697z"/></svg>
               </a></div>
-            <!-- <a class="social">GH</a> -->
-
           </div>
         </div>
 
 
       </section>
-      <section class="sub-section">
+      <section class="sub-section" id="about">
         <div class="information">
           <h2>About</h2>
           <p>Hello! My name is Davis Truong. I am a UX Designer!</p>
@@ -49,18 +53,18 @@
           <img class="headshot" src="src/images/Davis.JPG" alt="Davis Truong's Headshot">
         </div>
       </section>
-      <section" class="sub-section-alt">
+      <section" class="sub-section-alt" id="projects">
         <h2>Projects</h2>
         <div class="project-container">
           <div class="project-card">
             <img class="project-image" src="src/images/HealthyEatsMockup.png" alt="HealthyEats Project">
             <h3>HealthyEats</h3>
-            <p class="sub-text">This is my project!</p>
+            <p class="sub-text">This project was the final project of the Google certificate program.The project was to design a product for social good. The random prompt that I selected was to design a product that helped users cook healthy food. </p>
             <hr/>
             <p class="sub-text"><a class="project-link" href="">View</a></p>
           </div>
           <div class="project-card">            
-            <img class="project-image" src="" alt="Movie NightNight Project">
+            <img class="project-image" src="src/images/MovieNightMockup.png" alt="Movie NightNight Project">
             <h3>Movie Night</h3>
             <p class="sub-text">This is my project!</p>
             <hr/>
@@ -74,10 +78,10 @@
             <p class="sub-text"><a class="project-link" href="">View</a></p>
           </div>
           <div class="project-card">            
-            <img class="project-image" src="" alt="RoaringCycles Project">
+            <img class="project-image" src="src/images/RoaringCyclesMockup.png" alt="RoaringCycles Project">
             <h3>RoaringCycles</h3>
             <p class="sub-text">This is my project!</p>
-            <hr/>
+            <hr>
             <p class="sub-text"><a class="project-link" href="">View</a></p>
           </div>
           <div class="project-card">            
@@ -89,8 +93,29 @@
           </div>
         </div>
       </section>
-      <footer></footer>
 
+      <section class="contact-form">
+
+        <div class="form-submit">
+        <h2 class="subtitle">Reach Out!</h2>
+         <form target="_blank" action="https://formsubmit.co/el/zaneva" method="POST">
+          <input type="hidden" name="_next" value="https://yourdomain.co/src/pages/thankyou.html">
+          <div class="form-row">
+            <input  name="name" class="form-control" placeholder="Full name" required>
+            <input type="email" name="email" class="form-control" placeholder="Email" required>
+          </div>
+
+          <textarea placeholder="Your message" name="message" rows="10" required></textarea>
+          <div class="form-button"> <a href="#about">Send</a></div>
+        </div>
+
+        <footer id="contact">
+          <!-- <h2>Contact</h2> -->
+          <p>My email: dttruong303@gmail.com</p>
+        </footer>
+         </form>
+      
+      </section>
 
     <script src="src/app.js"></script>
   </body>

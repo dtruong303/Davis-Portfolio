@@ -4,7 +4,7 @@ body {
 }
 
 section {
-    background-color: #f3ece7;
+    background-color: #ede9e3;
 }
 
 .hero {
@@ -15,7 +15,12 @@ section {
 }
 
 footer {
-    background-color: black;
+    background-color: #ede9e3;
+    /* height: 100vh; */
+    font-size: 30px;
+    text-align: center;
+    padding: 40px;
+    color: #2e2e2d;
 }
 
 .logo {
@@ -36,6 +41,11 @@ ul {
     font-size: 25px;
 }
 
+ul.show {
+    display: block;
+
+}
+
 li {
     /* width: 200px; */
     text-decoration: none;
@@ -50,17 +60,28 @@ h1 {
 
 h2 {
     font-size: 50px;
+    color: #5f5f5e;
+}
+
+h3 {
+    color: #5f5f5e;
+
 }
 
 p {
-    margin: 0px;
-    font-size: 35px;
+    margin-top: 50px;
+    margin: 5px;
+    font-size: 30px;
     font-weight: 200;
+    color: #5f5f5e;
+    display: inline;
 }
 
 .sub-text {
     font-size: 15px;
     font-weight: 200;
+    color: #2e2e2d;
+    margin: 10px;
 }
 
 .hero-area {
@@ -116,6 +137,7 @@ p {
     flex-direction: column;
     text-align: center;
     padding: 80px;
+    background-color: #ede9e3;
 }
 
 .headshot {
@@ -129,33 +151,162 @@ p {
 
 .information {
     color: #5f5f5e;
+    height: 100vh;
 }
 
 .project-card {
     width: 300px;
     height: 500px;
-    box-shadow: 5px 5px 20px rgb(172, 171, 171);
+    box-shadow: 5px 5px 20px rgb(148, 147, 147);
     margin: 10px;
+    border-radius: 10px;
 }
 
 .project-container {
     display: flex;
     justify-content: space-around;
+    /* height: 100vh; */
+    margin-bottom: 200px;
+    
+}
+
+@media only screen and (max-width: 1000px) {
+    .project-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 .project-image {
-    margin-top: 25px;
-    width: 250px;
-    border-radius: 125px;
-
+    width: 300px;
+    height: 205px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 hr {
     margin-left: 20px;
     margin-right: 20px;
+    background-color: #5f5f5e;
+    border-radius: 10px;
 }
 
 .project-link {
     text-decoration: none;
-    color: green;
+    color: #5f5f5e;
 }
+
+a {
+    text-decoration: none;
+}
+
+.hamburger {
+    border: 0px;
+    background-color: transparent;
+    color: #5f5f5e;
+    font-size: 30px;
+    display: none;
+}
+
+.hamberger:focus {
+    outline: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+    .hamburger {
+        display: block;
+        border: 0px;
+        background-color: transparent;
+        color: #5f5f5e;
+        font-size: 30px;
+        margin: 20px;
+        align-self: flex-end;
+    }
+
+    ul {
+        display: none;
+        background-color: #eee4ce;
+        margin: 0px;
+        padding-bottom: 40px;
+    }
+    ul.show {
+        display: block;   
+    }
+    nav {
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #eee4ce;
+    }
+    .logo {
+        display: none;
+    }
+}
+.subtitle {
+    margin-bottom: 15px;
+}
+
+.form-submit {
+    width: 50%;
+    margin-bottom: 10px;
+    display:inline-table
+}
+
+.form-submit form {
+    width: 100%;
+    overflow: auto;
+}
+.form-submit .form-row {
+    display: flex;
+    justify-content: space-between;
+}
+.form-row .form-control {
+    font-family: 'Poppins', sans-serif;
+    width: 50%;
+    border: none;
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 12px;
+}
+.form-row .form-control:focus,
+.form-submit textarea:focus {
+    outline: 0;
+    background-color: #cdc6c3;
+}
+
+.form-submit textarea {
+    font-family: 'Poppins', sans-serif;
+    width: 93%;
+    border: none;
+    padding: 0;
+    resize: none;
+    margin-top: 5px;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form .form-button {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    height: 47px;
+    border-radius: 10px;
+    background-color: #e9ccb1;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 1.3px;
+    margin-top: 3px;
+    border: none;
+}
+
+form .form-button:hover {
+    background-color: #d3c4be;
+}
+
+.contact-form {
+    display: inline;
+}
+
