@@ -74,7 +74,8 @@ p {
     font-size: 30px;
     font-weight: 200;
     color: #5f5f5e;
-    display: inline;
+    display:flex;
+    flex-direction: column;
 }
 
 .sub-text {
@@ -310,3 +311,21 @@ form .form-button:hover {
     display: inline;
 }
 
+@media only screen and (max-width: 1000px) {
+    .form-submit {
+        width: 80%;
+    }
+    .form-submit .form-row {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .form-row .form-control{
+        width: 95%;
+        border-radius: 10px;
+    }
+
+    .form-submit textarea {
+        width:90%
+    }
+}
