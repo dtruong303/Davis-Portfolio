@@ -7,6 +7,14 @@ body {
     margin: 0;
 }
 
+.ty-page {
+    background-color: #f3ece7;
+}
+
+.maynooth {
+    background-color: #f3ece7;
+}
+
 section {
     background-color: #ede9e3;
 }
@@ -74,6 +82,11 @@ p {
     color: #5f5f5e;
     display:flex;
     flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: #5f5f5e;
 }
 
 .hero-area {
@@ -306,6 +319,21 @@ a {
         display: flex;
         flex-wrap: wrap;
     }
+
+    .sub-section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .headshot-container {
+        margin: 0;
+        float: left;
+    }
+
+    h2 {
+        margin-top: 150px;
+    }
+
 }
 
 .subtitle {
@@ -400,8 +428,8 @@ form .form-button:hover {
 
 .to-top {
     position: fixed;
-    bottom: 15px;
-    right: 32px;
+    bottom: 30px;
+    right: 30px;
     width: 90px;
     height: 80px;
     border-radius: 50%;
@@ -417,7 +445,7 @@ form .form-button:hover {
 }
 
 .to-top.active {
-    bottom: 32px;
+    bottom: 30px;
     pointer-events: auto;
     opacity: 1;
 }
