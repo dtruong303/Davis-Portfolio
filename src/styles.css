@@ -455,3 +455,14 @@ form .form-button:hover {
     margin-top: 260px;
     font-weight: 300;
 }
+
+.download {
+    font-size: 15px;
+    text-align: center;
+}
+
+.resume {
+    display: inline-block;
+    margin-top: 50px;
+}
+
