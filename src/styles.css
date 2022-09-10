@@ -404,6 +404,8 @@ form .form-button {
     padding-top: 1.3px;
     margin-top: 3px;
     border: none;
+    color: #2e2e2d;
+    font-weight: 300;
 }
 
 form .form-button:hover {
