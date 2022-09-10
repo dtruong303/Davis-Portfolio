@@ -333,6 +333,14 @@ a {
     h2 {
         margin-top: 150px;
     }
+    
+    .project-card > h3 {
+        opacity: 1;
+    }
+    
+    .project-card > .sub-text.fade {
+        opacity: 1;
+    }
 
 }
 
