@@ -384,6 +384,7 @@ a {
     padding: 10px;
     border-radius: 12px;
 }
+
 .form-row .form-control:focus,
 .form-submit textarea:focus {
     outline: 0;
