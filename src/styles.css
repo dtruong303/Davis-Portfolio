@@ -283,7 +283,7 @@ a {
     outline: 0;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1284px) {
     .hamburger {
         display: block;
         border: 0px;
