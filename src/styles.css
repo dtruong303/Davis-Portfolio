@@ -1,3 +1,8 @@
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -431,6 +436,14 @@ form .form-button:hover {
 }
 
 @media only screen and (max-width: 1000px) {
+    .sub-section-alt {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: #ede9e3;
+    }
     .form-submit {
         width: 80%;
     }
