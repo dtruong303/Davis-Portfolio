@@ -292,6 +292,11 @@ a {
 }
 
 @media only screen and (max-width: 1284px) {
+    .information {
+        color: #5f5f5e;
+        margin: 50px;
+    }
+
     .hamburger {
         display: block;
         border: 0px;
@@ -440,8 +445,8 @@ form .form-button:hover {
         display: flex;
         flex-direction: column;
         text-align: center;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
         background-color: #ede9e3;
     }
     .form-submit {
