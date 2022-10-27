@@ -378,7 +378,7 @@ a {
 
 .form-submit form {
     width: 100%;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .form-submit .form-row {
@@ -408,11 +408,10 @@ a {
     font-family: 'Poppins', sans-serif;
     width: 93%;
     border: none;
-    padding: 0;
+    padding: 12px;
     resize: none;
     margin-top: 5px;
     font-size: 20px;
-    padding: 20px;
     border-radius: 10px;
 }
 
@@ -464,7 +463,6 @@ form .form-button:hover {
 
     .form-submit textarea {
         width:80%;
-        
     }
 }
 
