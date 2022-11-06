@@ -1,0 +1,270 @@
+/* Body and HTML */
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+section {
+    background-color: #ede9e3;
+}
+.sections {
+    padding: 35px;
+    margin: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+/* Header and Main Navigation */
+.logo {
+    margin-top: 80px;
+    margin-left: 80px;
+    height: 80px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navTo {
+    margin-top: 80px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 25px;
+}
+
+ul.show {
+    display: block;
+
+}
+
+
+li {
+    color: #2e2e2d;
+    text-decoration: none;
+    margin-right: 80px;
+    margin-top: 80px;
+    margin: 0px; 
+    font-family: 'Poppins', sans-serif;
+    color: #5f5f5e;
+    font-size: 18px;
+    font-weight: 200;
+    display: flex;
+}
+
+h2 {
+    color: #5f5f5e;
+    font-size: 50px;
+    margin-bottom: 0px;
+    margin-top: 150px;
+}
+
+h3 {
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-size: 30px;
+    font-weight: 200;
+    color: #5f5f5e;
+    display:flex;
+    flex-direction: column;
+}
+
+h4 {
+    font-weight:300;
+    font-size: 25px;
+    margin: auto;
+    text-align: center;
+    width: 60%;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: #5f5f5e;
+}
+
+p {
+    color: #5f5f5e;
+    font-size: 18px;
+    font-weight: 200;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    /* padding-left: 100px; */
+    /* padding-right: 100px; */
+    }
+
+a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #5f5f5e;
+}
+
+.hamburger {
+    border: 0px;
+    background-color: transparent;
+    color: #5f5f5e;
+    font-size: 30px;
+    display: none;
+}
+
+.hamburger:focus {
+    outline: 0;
+}
+
+/* HERO */ 
+.hero {
+    padding-bottom: 150px;
+}
+
+.hero-area {
+    /* display: flex; */
+    margin-left: 80px;
+    padding-top: 100px;
+    /* height: 100%; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+}
+
+.hero-text {
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 1284px) {
+    .information {
+        color: #5f5f5e;
+        margin: 50px;
+    }
+
+    .hamburger {
+        display: block;
+        border: 0px;
+        background-color: transparent;
+        color: #5f5f5e;
+        font-size: 30px;
+        margin: 20px;
+        align-self: flex-end;
+    }
+
+    ul {
+        display: none;
+        background-color: #eee4ce;
+        margin: 0px;
+        padding-bottom: 40px;
+    }
+
+    ul.show {
+        display: block;   
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #eee4ce;
+    }
+
+    .logo {
+        display: none;
+    }
+}
+
+/* CASE STUDY */
+.case-study {
+    margin: 0px;
+    padding: 0px;
+    font-weight:300;
+    
+}
+
+.case-study-overview {
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-bottom: 120px;
+    font-weight:300;
+    text-align: justify;
+    justify-content: left;
+}
+
+.roles {
+    margin-top: 25px;
+    font-weight:300;
+    text-align: justify;
+    justify-content: left;
+}
+
+.date {
+    margin-top: 25px;
+}
+
+.mockup-container {
+    position:relative;
+    display:flex;
+    float: right;
+    bottom: 80px;
+    margin-right: 90px;
+}
+
+.mockup {
+    width: 650px;
+    border-radius: 10px;
+}
+
+.persona-maps {
+    text-align: center;
+    margin: 20px;
+    padding: 60px;
+}
+
+.view {
+    margin-top: 0px;
+    margin-left: 770px;
+}
+
+.button {
+    width: 180px;
+    height: 47px;
+    border-radius: 30px;
+    background-color: #e9ccb1;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 1.3px;
+    margin-top: 20px;
+}
+
+.findings-container {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    
+}
+
+.round {
+    font-weight:400;
+    font-size: 21px;
+}
+
+.findings {
+    display:inline;
+    flex-direction:column;
+    width: 770px;
+    margin-top: 40px;
+}
+
+.proto-button {
+    width: 960px;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
