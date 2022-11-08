@@ -407,13 +407,11 @@ form .form-button:hover {
 @media only screen and (max-width: 1284px) {
   
     .hamburger {
-        display: block;
-        border: 0px;
-        background-color: transparent;
-        color: #5f5f5e;
-        font-size: 30px;
-        margin: 20px;
-        align-self: flex-end;
+        margin: 25px;
+        justify-content: right;
+        width: 100%;
+        height: auto;
+        display: flex;
     }
 
     ul {
@@ -461,7 +459,7 @@ form .form-button:hover {
 
     h2 {
         margin-top: 90px;
-        font-size: 30px;
+        font-size: 35px;
         text-align: center;
     }
 
@@ -496,7 +494,7 @@ form .form-button:hover {
 
     .hero {
         padding:0px;
-        padding-right: 30px;
+        padding-right: 50px;
     }
 
     .hero-area {
@@ -508,10 +506,12 @@ form .form-button:hover {
 
     .hero-text {
         text-align: left;
+        margin-left: 50px;
+        margin-bottom: 100px;
     }
 
     .information {
-        margin: 20px;    
+        padding-right: 30px;    
     }
 
     .button {
