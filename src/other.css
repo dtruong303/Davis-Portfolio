@@ -52,6 +52,11 @@ a {
     color: #808080;
 }
 
+li {
+    list-style-type: none;
+    font-weight: 200;
+}
+
 /* Header/Logo */
 .logo {
     margin-top: 80px;
@@ -206,14 +211,32 @@ h4 {
     }
 
     p {
-        font-size: 20px;
+        font-size: 15px;
+        margin:5px
     }
 
+    /* .mockup-container{
+        width: 100%;
+        height: auto;
+        display: flex;
+    } */
+
     .mockup {
+        /* margin-left:90px; */
+        margin: 25px;
         width: 100%;
         height: auto;
         display: flex;
     }
+
+    .sections {
+        margin:10px;
+        padding: 0px;
+    }
+
+    /* .case-study-overview {
+        margin:10px;
+    } */
 
     .case-study {
         font-weight:300;
@@ -245,5 +268,22 @@ h4 {
     nav {
         display: flex;
         flex-direction: column-reverse;
+    }
+
+    .persona-maps {
+        padding: 0px;
+        margin: 10px;
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+
+    .findings-container {
+        display: block;
+    }
+
+    .button {
+        width: 100px;
+        height:30px;
+        font-size: 18px;
     }
 }
