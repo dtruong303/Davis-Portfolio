@@ -23,49 +23,42 @@ section {
     padding-right: 60px;
 }
 
-/* Header and Main Navigation */
+p {
+    color: #5f5f5e;
+    font-size: 18px;
+    font-weight: 200;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    }
+
+a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #5f5f5e;
+}
+
+.button:hover {
+    background-color: #d3c4be;
+}
+
+.button:active 
+{
+    background-color: #a9a9a9;
+    color: #808080;
+}
+
+.view:hover {
+    background-color: #a9a9a9;
+    color: #808080;
+}
+
+/* Header/Logo */
 .logo {
     margin-top: 80px;
     margin-left: 80px;
     height: 80px;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-}
-
-.navTo {
-    margin-top: 80px;
-}
-
-ul {
-    display: flex;
-    list-style-type: none;
-    width: 500px;
-    justify-content: space-around;
-    font-size: 25px;
-}
-
-ul.show {
-    display: block;
-
-}
-
-
-li {
-    color: #2e2e2d;
-    text-decoration: none;
-    margin-right: 80px;
-    margin-top: 80px;
-    margin: 0px; 
-    font-family: 'Poppins', sans-serif;
-    color: #5f5f5e;
-    font-size: 18px;
-    font-weight: 200;
-    display: flex;
-    
-}
 
 h2 {
     color: #5f5f5e;
@@ -95,41 +88,12 @@ h4 {
     color: #5f5f5e;
 }
 
-p {
-    color: #5f5f5e;
-    font-size: 18px;
-    font-weight: 200;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    /* padding-left: 100px; */
-    /* padding-right: 100px; */
-    }
-
-a {
-    font-family: 'Poppins', sans-serif;
-    text-decoration: none;
-    color: #5f5f5e;
-}
-
-.hamburger {
-    border: 0px;
-    background-color: transparent;
-    color: #5f5f5e;
-    font-size: 30px;
-    display: none;
-}
-
-.hamburger:focus {
-    outline: 0;
-}
-
 /* HERO */ 
 .hero {
     padding-bottom: 150px;
 }
 
 .hero-area {
-    /* display: flex; */
     margin-left: 80px;
     padding-top: 100px;
     /* height: 100%; */
@@ -142,55 +106,18 @@ a {
     margin-bottom: 50px;
 }
 
-@media only screen and (max-width: 1284px) {
-    .information {
-        color: #5f5f5e;
-        margin: 50px;
-    }
-
-    .hamburger {
-        display: block;
-        border: 0px;
-        background-color: transparent;
-        color: #5f5f5e;
-        font-size: 30px;
-        margin: 20px;
-        align-self: flex-end;
-    }
-
-    ul {
-        display: none;
-        background-color: #eee4ce;
-        margin: 0px;
-        padding-bottom: 40px;
-    }
-
-    ul.show {
-        display: block;   
-    }
-
-    nav {
-        display: flex;
-        flex-direction: column-reverse;
-        background-color: #eee4ce;
-    }
-
-    .logo {
-        display: none;
-    }
-}
 
 /* CASE STUDY */
 .case-study {
     margin: 0px;
     padding: 0px;
     font-weight:300;
-    
 }
 
 .case-study-overview {
     margin-top: 80px;
     margin-left: 80px;
+    margin-right: 80px;
     margin-bottom: 120px;
     font-weight:300;
     text-align: justify;
@@ -214,6 +141,7 @@ a {
     float: right;
     bottom: 80px;
     margin-right: 90px;
+
 }
 
 .mockup {
@@ -225,11 +153,6 @@ a {
     text-align: center;
     margin: 20px;
     padding: 60px;
-}
-
-.view {
-    margin-top: 0px;
-    margin-left: 770px;
 }
 
 .button {
@@ -269,3 +192,58 @@ a {
     justify-content: space-evenly;
 }
 
+@media only screen and (max-width: 1284px) {
+    .information {
+        color: #5f5f5e;
+        margin: 50px;
+    }
+
+    .logo {
+        width: 12%;
+        height: 12%;
+        margin: 10px;
+        display: flex;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .mockup {
+        width: 100%;
+        height: auto;
+        display: flex;
+    }
+
+    .case-study {
+        font-weight:300;
+        font-size: 25px;
+        margin: auto;
+        text-align: center;
+        width: 60%;
+        padding: 10px;
+    }
+   
+    .h4 {
+        width: 100%;
+        height: auto;
+        display: flex;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        display: flex;
+    }
+
+    .proto-button {
+        width: 100%;
+        height: auto;
+        display: flex;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
