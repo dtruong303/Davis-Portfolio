@@ -497,8 +497,8 @@ form .form-button:hover {
     }
 
     .hero-area {
-        padding-top: 30px;
-        padding-bottom: 40px;
+        padding-top: 100px;
+        padding-bottom: 60px;
         width: 100%;
         height: auto;
         display: flex;
