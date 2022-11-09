@@ -504,7 +504,7 @@ form .form-button:hover {
     }
 
     .socials {
-        margin-right: 0px;
+        margin-right: 10px;
         margin-bottom: 25px;
         flex-direction: column;
         justify-content: space-between;
