@@ -407,7 +407,7 @@ form .form-button:hover {
 @media only screen and (max-width: 1284px) {
 
     .hamburger {
-        margin: 30px;
+        margin: 25px;
         justify-content: end;
         height: auto;
         display: flex;
@@ -497,6 +497,7 @@ form .form-button:hover {
 
     .hero-area {
         padding-top: 30px;
+        padding-bottom: 40px;
         width: 100%;
         height: auto;
         display: flex;
@@ -520,7 +521,7 @@ form .form-button:hover {
 
     .information {
         padding-right: 0px;  
-        margin: 5px; 
+        margin: 5px;
     }
 
     .button {
