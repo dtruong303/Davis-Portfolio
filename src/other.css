@@ -28,6 +28,7 @@ p {
     font-size: 18px;
     font-weight: 200;
     font-family: 'Poppins', sans-serif;
+    text-align: center;
     }
 
 a {
@@ -86,7 +87,7 @@ h4 {
     margin: auto;
     text-align: center;
     width: 60%;
-    padding: 10px;
+    /* padding: 10px; */
     font-family: 'Poppins', sans-serif;
     color: #5f5f5e;
 }
